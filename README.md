@@ -2,7 +2,7 @@
 
 ## Live Website
 
-- [Link](https://harsh-sangwan2003.github.io/Tic-Tac-Toe/)
+- [Link](https://harsh-sangwan2003.github.io/Greet-App/)
 
 A quick guide to my Project ->
 
@@ -16,7 +16,7 @@ A quick guide to my Project ->
 
 ## Usage
 
-A simple Tic Tac Toe Game.
+Greet App.
 
 Click on
 
