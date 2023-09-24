@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greet App</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <script src="./scripts/model.js"></script>
+    <script src="./scripts/controller.js"></script>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1 class="alert alert-info text-center">Greet App</h1>
+
+        <div class="form-group">
+            <label for="first-name">First Name</label>
+            <input class="form-control" id="first-name" type="text" placeholder="Type first name here">
+        </div>
+
+        <br>
+
+        <div class="form-group">
+            <label for="last-name">Last Name</label>
+            <input class="form-control" id="last-name" type="text" placeholder="Type last name here">
+        </div>
+
+        <br>
+
+        <div class="form-group">
+            <button class="btn btn-primary" id="greet-btn">Greet</button>
+            <button class="btn btn-danger" id="reset">Clear All</button>
+        </div>
+
+        <h2><span id="greet-msg"></span></h2>
+
+    </div>
+
+</body>
+
+</html>
